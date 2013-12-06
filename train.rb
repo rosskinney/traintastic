@@ -21,7 +21,7 @@ class Train
 
   #New method to calculate trip distance based on time
   def trip_distance(time)
-
+    @speed * time
   end
 
   # Returns the String type of power for this train.
